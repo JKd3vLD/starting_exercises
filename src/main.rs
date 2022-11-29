@@ -1,6 +1,10 @@
 use std::io;
 
 fn main() {
+  temperature_calculator();
+}
+
+fn temperature_calculator() {
   println!("\n============== Temperature calculator ==============\n");
 
   let mut temperature = String::new();
